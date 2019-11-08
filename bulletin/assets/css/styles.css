@@ -56,11 +56,38 @@ h1 {
   */
   box-shadow: 0px 3px 6px #212121, 0px 3px 6px #757575;
   border-radius: 4px;
+  position: relative;
+  padding: 1.8em;
 
 }
 
-/* .title {
-    background: #000;
+.actions {
+  position: absolute;
+  top: 1em;
+  right: 1em;
+}
+
+.close {
+  height: 40px;
+  width: 40px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #757575;
+  display: inline-block;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  font-weight: 300px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.close:hover {
+  background: #212121;
+}
+
+.title {
+    /*background: #000;
     color: #fff;
     text-align: center;
     width: 500px;
@@ -68,9 +95,10 @@ h1 {
     margin: auto;
     padding: 8px;
     font-size: 30px;
-    font-family: cursive;
+    font-family: cursive;*/
+    text-align: center;
 
-} */
+}
 
 body {
     background: #F5F5F5;
@@ -141,6 +169,7 @@ body {
   border-color: #009688; */
   border-bottom: solid 2px #009688;
   padding-bottom: 1em;
+  font-size: 2em;
 }
 
 .position {
@@ -148,6 +177,7 @@ body {
   color: #fff;
   padding: 10px;
   border-radius: 4px;
+  margin-right: 0.5em;
 }
 
 tr:hover {
@@ -155,5 +185,6 @@ tr:hover {
 }
 
 .link:hover {
-  color: #009688;
+  /* color: #009688; */
+  opacity: 0.5;
 }
